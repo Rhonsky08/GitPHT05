@@ -1,0 +1,167 @@
+
+
+* {
+    color: white;
+}
+
+body {
+    background-color : 	#375959
+}
+
+h1 {
+  color: #C6AA58;
+  
+}
+
+button{
+  position: absolute;
+  top: 120%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:#213434;
+  color:#C6AA58;
+  font-size: 14px;
+  padding: 14px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+button:hover{
+  background-color:#84a7a3;
+  color:#213434;
+  
+}
+  
+
+
+
+.header-bar {
+    background-color: #213434;  
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 100%;  
+}
+
+.nav-bar{
+    position: relative;
+    height: 100%;
+    max-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: left;
+
+}
+
+.circle-image{
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 370px;
+  top: 190px;
+ 
+
+  
+}
+.circle-image img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  position: absolute;
+  opacity:50%;
+
+  
+}
+
+.centered {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+    
+  
+}
+
+
+ 
+   
+
+.footer-bar {
+    background-color:#213434;
+    color: #fff;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.foot-container{
+  position:relative;
+  height: 100%;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+    color: #84a7a3;
+    text-decoration: none;
+    padding: 0 20px;
+    letter-spacing: 0.5px;
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #81b9b9;
+    transition: 0.5s linear;
+  }
+
+
+a:hover {
+    color: #81b9b9;
+  }
+  a:hover:after {
+    width: 100%;
+  }
+
+  .bg_img{
+    opacity:9%;
+    margin-top: 36px;
+  }
+
+  .myphoto{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+  
+
+  }
+
+  
+
+  
